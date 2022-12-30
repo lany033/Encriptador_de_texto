@@ -1,0 +1,21 @@
+.principal{
+    background-color: #F3F5FC;
+}
+
+.container{
+   padding-top: 40px;
+   padding-left: 84px;
+   display: flex;
+   flex-direction: row;
+}
+
+
+.box-text-buttons{
+    width: 65%;
+    height: 100%;
+}
+
+.box-traductor{
+    
+    height: 100%;
+}
