@@ -2,6 +2,10 @@
     background-color: #F3F5FC;
 }
 
+p{
+    font-family:sans-serif;
+}
+
 .container{
    padding-top: 40px;
    padding-left: 84px;
@@ -9,15 +13,31 @@
    flex-direction: row;
 }
 
+.input-text::placeholder { color: #0A3871; }
 
-.box-text-buttons{
-    width: 65%;
-    height: 100%;
+.input-text{
+    border: none;
+    padding: 0px 100px 100px 0px;
+    outline: none;
+    margin-bottom: 300px;
+    font-size: 32px;
+    background: none;
 }
 
-.box-traductor{
-    
+.box-text-buttons{
+    width: 60%;
     height: 100%;
+    padding: 168px 0px 168px 168px;
+}
+
+.box-advertencia{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px 25px 0px;
+}
+
+.box-advertencia{
+    margin-left: 8px;
 }
 
 .buttons{
@@ -28,11 +48,12 @@
 .button-encriptar{
     /* width: 200px; */
     padding: 24px 120px;
+    margin-right: 24px;
     font-size: 16px;
     color:white;
     background: #0A3871;
     border:none;
-    border-radius: 15px;
+    border-radius: 24px;
 }
 
 .button-desencriptar{
@@ -41,6 +62,39 @@
     font-size: 16px;
     color: #0A3871;
     background: #D8DFE8;
-    border:none;
-    border-radius: 15px;
+    border:1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.box-traductor{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 24px;
+}
+
+.dibujo{
+    padding: 243px 32px 32px 32px;
+}
+
+.box-mensaje{
+    padding: 0px 32px 32px 32px;
+}
+
+.mensaje{
+    font-size: 24px;
+    
+}
+
+.box-text-2{
+    padding: 0px 32px 32px 32px;
+}
+
+.input-text-2::placeholder { color: #0A3871; }
+
+.input-text-2{
+    border: none;
+    outline: none;
+    background: none;
 }
