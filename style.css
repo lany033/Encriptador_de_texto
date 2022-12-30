@@ -20,12 +20,27 @@
     height: 100%;
 }
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
 .button-encriptar{
-    width: 40%;
-    padding: 15px 0;
+    /* width: 200px; */
+    padding: 24px 120px;
     font-size: 16px;
     color:white;
     background: #0A3871;
     border:none;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.button-desencriptar{
+    /* width: 200px; */
+    padding: 24px 120px;
+    font-size: 16px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border:none;
+    border-radius: 15px;
 }
