@@ -36,7 +36,7 @@ p{
     margin: 25px 0px 25px 0px;
 }
 
-.box-advertencia{
+.box-text-advertencia{
     margin-left: 8px;
 }
 
@@ -84,7 +84,8 @@ p{
 
 .mensaje{
     font-size: 24px;
-    
+    font-weight: bold;
+    text-align: center;
 }
 
 .box-text-2{
