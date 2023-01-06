@@ -7,8 +7,10 @@ p{
 }
 
 .container{
-   padding-top: 40px;
-   padding-left: 84px;
+   padding-top: 4rem;
+   padding-left: 8rem;
+   padding-right: 8rem;
+   padding-bottom: 4rem;
    display: flex;
    flex-direction: row;
 }
