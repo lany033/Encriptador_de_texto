@@ -19,28 +19,27 @@ p{
 
 .input-text{
     border: none;
-    padding: 0px 100px 100px 0px;
+    padding: 0rem 6rem 6rem 0rem;
     outline: none;
-    margin-bottom: 300px;
+    margin-bottom: 18rem;
     font-size: 32px;
     background: none;
     resize: none;
 }
 
 .box-text-buttons{
-    width: 60%;
-    height: 100%;
-    padding: 168px 0px 168px 168px;
+   
+    padding: 8rem 10rem 2rem 10rem;
 }
 
 .box-advertencia{
     display: flex;
     flex-direction: row;
-    margin: 25px 0px 25px 0px;
+    margin: 2rem 0rem 2rem 0rem;
 }
 
 .box-text-advertencia{
-    margin-left: 8px;
+    margin-left: 0.8rem;
 }
 
 .buttons{
@@ -50,8 +49,8 @@ p{
 
 .button-encriptar{
     /* width: 200px; */
-    padding: 24px 120px;
-    margin-right: 24px;
+    padding: 1.5rem 9rem;
+    margin-right: 1.5rem;
     font-size: 16px;
     color:white;
     background: #0A3871;
@@ -61,7 +60,7 @@ p{
 
 .button-desencriptar{
     /* width: 200px; */
-    padding: 24px 120px;
+    padding: 1.5rem 9rem;
     font-size: 16px;
     color: #0A3871;
     background: #D8DFE8;
@@ -72,17 +71,18 @@ p{
 .box-traductor{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     background: #FFFFFF;
     border-radius: 32px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 24px;
 }
 
 .dibujo{
-    padding: 243px 32px 32px 32px;
+    padding: 13rem 2rem 2rem 2rem;
 }
 
 .box-mensaje{
-    padding: 0px 32px 32px 32px;
+    padding: 0px 2rem 2rem 2rem;
 }
 
 .mensaje{
@@ -92,7 +92,7 @@ p{
 }
 
 .box-text-2{
-    padding: 0px 32px 32px 32px;
+    padding: 0px 2rem 2rem 2rem;
 }
 
 .input-text-2::placeholder { color: #0A3871; }
