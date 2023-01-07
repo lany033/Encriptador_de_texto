@@ -1,5 +1,6 @@
 .principal{
     background-color: #F3F5FC;
+    width: 100%;
 }
 
 p{
@@ -7,19 +8,18 @@ p{
 }
 
 .container{
-   padding-top: 4rem;
-   padding-left: 8rem;
-   padding-right: 8rem;
-   padding-bottom: 4rem;
+   padding: 4rem 4rem 4rem 6.5rem;
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
 }
 
 .input-text::placeholder { color: #0A3871; }
 
 .input-text{
     border: none;
-    padding: 0rem 6rem 6rem 0rem;
+    width: 100%;
+    font-family:sans-serif;
     outline: none;
     margin-bottom: 18rem;
     font-size: 32px;
@@ -28,13 +28,16 @@ p{
 }
 
 .box-text-buttons{
-   
-    padding: 8rem 10rem 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8rem 5rem 1rem 8rem;
 }
 
 .box-advertencia{
     display: flex;
     flex-direction: row;
+    
     margin: 2rem 0rem 2rem 0rem;
 }
 
@@ -48,9 +51,8 @@ p{
 }
 
 .button-encriptar{
-    /* width: 200px; */
-    padding: 1.5rem 9rem;
-    margin-right: 1.5rem;
+    padding: 2.5vh 7vw;
+    margin-right: 1vw;
     font-size: 16px;
     color:white;
     background: #0A3871;
@@ -59,8 +61,7 @@ p{
 }
 
 .button-desencriptar{
-    /* width: 200px; */
-    padding: 1.5rem 9rem;
+    padding: 2.5vh 7vw;
     font-size: 16px;
     color: #0A3871;
     background: #D8DFE8;
@@ -92,16 +93,84 @@ p{
 }
 
 .box-text-2{
-    padding: 0px 2rem 2rem 2rem;
+    padding: 0px 2rem 12rem 2rem;
 }
 
 .input-text-2::placeholder { color: #0A3871; }
 
 .input-text-2{
     width: 100%;
+    font-family: sans-serif;
     text-align: center;
     border: none;
     outline: none;
     background: none;
     resize: none;
+}
+
+@media screen and (max-width: 1180px) {
+    .container{
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons{
+        justify-content: space-between;
+    }
+
+    .button-encriptar{
+        width: 40vw;
+        margin-bottom: 1rem;
+    }
+    
+    .button-desencriptar{
+        width: 40vw;
+        background: none;
+    }
+
+    .box-text-buttons{
+        padding: 5rem 0rem 1rem 0rem;
+    }
+
+    .box-text-2{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .dibujo{
+        display:none !important;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+     }
+
+    .button-encriptar{
+        width: 100%;    
+    }
+    
+    .button-desencriptar{
+        width: 100%;  
+        background: none;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+     }
+
+    .box-text-2{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .dibujo{
+        display:none !important;
+    }
 }
