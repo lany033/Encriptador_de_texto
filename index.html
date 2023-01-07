@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Encriptador</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
 
             <div class="box-text-buttons">
                 <div class="input-text-1">
-                    <textarea  class="input-text" placeholder="Ingrese el texto aqui"></textarea>
+                    <textarea  id="text-area-1" class="input-text" placeholder="Ingrese el texto aqui"></textarea>
                 </div>
                 <div>
                     <div class="box-advertencia">
@@ -36,10 +37,10 @@
                     </div>
                     <div class="buttons">
                         <div>
-                            <button class="button-encriptar">Encriptar</button>
+                            <button class="button-encriptar" onclick="encriptar()">Encriptar</button>
                         </div>
                         <div>
-                            <button class="button-desencriptar">Desencriptar</button>
+                            <button class="button-desencriptar" id="desencriptar">Desencriptar</button>
                         </div>
                     </div>
                 </div> 
